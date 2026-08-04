@@ -59,16 +59,16 @@ Every test origin lives under `.test` — an IANA-reserved TLD that will never r
 v1.0.0 · Synthetic origins only. Reserved TLDs. No exploitation.
 
 • TARGET: https://api.example.com/data
-┌────────────────────────────────────┬─────────────────────────┬──────────────────────────┬───────┬──────────┐
+┌─────────────────────────────────────┬──────────────────────────┬───────────────────────────┬───────┬──────────┐
 │ TEST                                │ TEST ORIGIN              │ ALLOW-ORIGIN              │ CREDS │ RISK     │
-├────────────────────────────────────┼─────────────────────────┼──────────────────────────┼───────┼──────────┤
+├─────────────────────────────────────┼──────────────────────────┼───────────────────────────┼───────┼──────────┤
 │ Arbitrary attacker origin reflected?│ https://corsx-probe.test │ https://corsx-probe.test  │ true  │ CRITICAL │
-│ 'null' Origin trusted?              │ null                     │ null                       │ true  │ HIGH     │
+│ 'null' Origin trusted?              │ null                     │ null                      │ true  │ HIGH     │
 │ Weak suffix/startswith match bypass?│ https://api.example...   │ https://api.example...    │ true  │ HIGH     │
-└────────────────────────────────────┴─────────────────────────┴──────────────────────────┴───────┴──────────┘
+└─────────────────────────────────────┴──────────────────────────┴───────────────────────────┴───────┴──────────┘
 
 ╔══════════════════════════════════════════════╗
-║              ⚡ CRITICAL RISK ⚡               ║
+║              ⚡ CRITICAL RISK ⚡            ║
 ╚══════════════════════════════════════════════╝
 ```
 
