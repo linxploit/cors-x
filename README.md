@@ -9,7 +9,7 @@
  \____/\___/\_| \_|\____/  \/   \/
 ```
 
-### ✦ Cross-Origin Misconfiguration Analyzer ✦
+###  Cross-Origin Misconfiguration Analyzer 
 
 **Synthetic origins only. Reserved TLDs. No exploitation.**
 
