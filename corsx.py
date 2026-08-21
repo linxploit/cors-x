@@ -57,9 +57,7 @@ requests.packages.urllib3.disable_warnings()  # noqa
 # --------------------------------------------------------------------------- #
 #  UI toolkit — a deliberately different visual language from the rest of
 #  the Linxploit X-Suite: violet→crimson gradient, a live status strip,
-#  a bordered grid table for findings, and a stamped verdict box instead
-#  of the gradient-bar / boxed-panel look used elsewhere.
-# --------------------------------------------------------------------------- #
+
 
 GRADIENT = [
     "\033[38;5;93m",
