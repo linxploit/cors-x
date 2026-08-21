@@ -213,8 +213,6 @@ def draw_table(headers: List[str], rows: List[List[str]], colors: Optional[List[
     print(C_MUTE + border(BOX["bl"], BOX["b"], BOX["br"], BOX["h"]) + RESET)
 
 
-# ---- verdict stamp -----------------------------------------------------
-
 def verdict_stamp(label: str, color: str, width: int = 46):
     inner = f" {BOX['bolt']} {label} {BOX['bolt']} "
     pad = max(width - len(strip_ansi(inner)), 0)
@@ -227,12 +225,6 @@ def verdict_stamp(label: str, color: str, width: int = 46):
     print(color + BOX["dbl"] + BOX["dh"] * width + BOX["dbr"] + RESET)
     print()
 
-
-# --------------------------------------------------------------------------- #
-#  Test matrix — well-documented CORS misconfiguration patterns
-#  (the same public techniques described in the OWASP Testing Guide and
-#  used by well-known open-source CORS scanners).
-# --------------------------------------------------------------------------- #
 
 DEFAULT_ATTACKER_DOMAIN = "corsx-probe.test"  # IANA-reserved, non-resolvable TLD
 
