@@ -187,8 +187,6 @@ def section_title(title: str, color: str = C_ACC):
     hr(C_MUTE, len(strip_ansi(title)) + 2)
 
 
-# ---- grid table ------------------------------------------------------------
-
 def draw_table(headers: List[str], rows: List[List[str]], colors: Optional[List[Optional[str]]] = None):
     """Render a bordered grid table. `colors` is an optional per-row color
     applied to the whole row (e.g. by risk level)."""
