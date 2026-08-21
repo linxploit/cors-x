@@ -55,7 +55,7 @@ Every test origin lives under `.test` — an IANA-reserved TLD that will never r
 ## 📸 Preview
 
 ```
-✦ Cross-Origin Misconfiguration Analyzer ✦
+ Cross-Origin Misconfiguration Analyzer 
 v1.0.0 · Synthetic origins only. Reserved TLDs. No exploitation.
 
 • TARGET: https://api.example.com/data
