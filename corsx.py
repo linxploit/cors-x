@@ -54,7 +54,7 @@ PORTFOLIO = "https://linxploit.com/founder"
 
 requests.packages.urllib3.disable_warnings()  # noqa
 
-# --------------------------------------------------------------------------- #
+
 #  UI toolkit — a deliberately different visual language from the rest of
 #  the Linxploit X-Suite: violet→crimson gradient, a live status strip,
 
