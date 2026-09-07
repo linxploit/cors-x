@@ -27,7 +27,7 @@ DISCLAIMER:
     Only use this tool against targets you own or are explicitly
     authorized to assess.
 """
-4t4
+
 import argparse
 import concurrent.futures
 import csv
