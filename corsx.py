@@ -11,7 +11,7 @@
 CorsX — Cross-Origin Misconfiguration Analyzer
 Made by Mindless — Founder & CEO of Linxploit
 https://linxploit.com | https://linxploit.com/founder
-erag
+
 DISCLAIMER:
     CorsX sends a handful of normal HTTP GET/OPTIONS requests carrying
     a synthetic "Origin" header — the exact same header any real
